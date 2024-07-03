@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 
 export default function Appbar() {
   return (
-    <AppBar position="fixed">
+    <AppBar position="static">
       <Toolbar
         sx={{
           display: "flex",
@@ -16,7 +16,7 @@ export default function Appbar() {
           p: "2rem",
         }}
       >
-        <Typography variant="h5" fontFamily="typography" color="primary.main">
+        <Typography variant="h4" fontFamily="typography" color="primary.main">
           Instruments
         </Typography>
         <Box display="flex" gap="5rem">

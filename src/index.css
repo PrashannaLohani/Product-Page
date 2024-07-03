@@ -111,3 +111,15 @@
   font-weight: 900;
   font-style: italic;
 }
+::-webkit-scrollbar {
+  width: 7px; /* width of the scrollbar */
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #8e8e8e; /* color of the scrollbar handle */
+  border-radius: 10px; /* roundness of the scrollbar handle */
+  box-shadow: rgba(0, 2, 0, 0.8);
+}
+html {
+  scroll-behavior: smooth;
+}
