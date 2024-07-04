@@ -14,6 +14,7 @@ export default function Appbar() {
           alignItems: "center",
           justifyContent: "space-between",
           p: "2rem",
+          bgcolor: "#000",
         }}
       >
         <Typography variant="h4" fontFamily="typography" color="primary.main">

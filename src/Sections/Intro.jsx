@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 export default function Intro() {
   return (
@@ -22,24 +23,54 @@ export default function Intro() {
         sx={{
           background:
             "linear-gradient(45deg, rgba(0,0,0,0.90) 50%, rgba(252,252,252,0) 97%)",
+          zIndex: 2, // Ensures the gradient is above the video
+        }}
+      />
+      <Box
+        position="absolute"
+        top={0}
+        left={0}
+        width="100%"
+        height="100%"
+        display="flex"
+        alignItems="center"
+        padding="2rem"
+        sx={{
+          zIndex: 3, // Ensures the text is above the gradient box
         }}
       >
         <Box
           display="flex"
-      
-          alignItems="center"
-          height="100%"
+          flexDirection="column"
+          justifyContent="center"
+          p="3rem"
+          gap="1rem"
         >
-          <Typography
-            variant="h2"
-            color="white"
+          <Typography variant="h1" color="white" fontWeight="800">
+            Build. Grow. Serve.
+          </Typography>
+          <Typography variant="h5" color="white">
+            We are investing $3 million over the next three years in our <br />{" "}
+            Build|Grow|Serve program, created to support and empower Black and{" "}
+            <br /> underpresented communities.
+          </Typography>
+          <Button
+            variant="contained"
+            endIcon={<ArrowRightAltIcon />}
             sx={{
-              textAlign: "center",
-              p: 2,
+              backgroundColor: "#fff",
+              color: "#000",
+              borderRadius: "2rem",
+              maxWidth: "12rem",
+              p: "1rem",
+              letterSpacing: "3px",
+              "&:hover": {
+                backgroundColor: "#e0e0e0",
+              },
             }}
           >
-            Your Text Here
-          </Typography>
+            Learn More
+          </Button>
         </Box>
       </Box>
     </Box>
