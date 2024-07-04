@@ -18,7 +18,7 @@ export default function Appbar() {
         }}
       >
         <Typography variant="h4" fontFamily="typography" color="primary.main">
-          Instruments
+          BLⱯCK
         </Typography>
         <Box display="flex" gap="5rem">
           <a

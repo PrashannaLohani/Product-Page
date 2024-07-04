@@ -51,8 +51,9 @@ export default function Intro() {
           </Typography>
           <Typography variant="h5" color="white">
             We are investing $3 million over the next three years in our <br />{" "}
-            Build|Grow|Serve program, created to support and empower Black and{" "}
-            <br /> underpresented communities.
+            Build|Grow|Serve program, created to support and empower{" "}
+            <span style={{ color: "red" }}>Black</span> and <br />{" "}
+            <span style={{ color: "red" }}>underpresented </span>communities.
           </Typography>
           <Button
             variant="contained"
