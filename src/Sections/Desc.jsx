@@ -66,7 +66,7 @@ export default function Desc() {
             <Typography fontSize="1.8rem" color="white" maxWidth="30rem">
               In our third episode of ON Air, we explore all that's happend
               within the last six moths, the reality if showing up every day as
-              a <span style={{ color: "red" }}>BIPOC</span> employee in
+              a <span style={{ color: "red" }}>BIPOC employee</span> in
               Corporate America, and ur future vision for diversity,equity,and
               inclusion.
             </Typography>
