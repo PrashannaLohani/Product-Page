@@ -19,7 +19,14 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 export default function Footer() {
   return (
     <>
-      <Box minHeight="50vh" p="3rem" display="flex" mt="5rem" gap="8rem">
+      <Box
+        minHeight="50vh"
+        p="3rem"
+        display="flex"
+        justifyContent="space-around"
+        mt="5rem"
+        gap="8rem"
+      >
         <Box display="flex" flexDirection="column" gap="2rem">
           <Box>
             <Typography
@@ -143,7 +150,7 @@ export default function Footer() {
         </Box>
         <Box display="flex" flexDirection="column" gap="1rem" mt="5rem">
           <Typography variant="h6" color="primary.main" fontWeight="500">
-            Subscribe More Info
+            Stay Connected{" "}
           </Typography>
           <FormControl>
             <Input
