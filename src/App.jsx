@@ -10,7 +10,7 @@ import Home from "./Pages/Home";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
+      <Route path="/Services" element={<RootLayout />}>
         <Route index element={<Home />} />
       </Route>
     )
