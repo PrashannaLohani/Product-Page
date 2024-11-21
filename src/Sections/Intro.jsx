@@ -12,7 +12,7 @@ export default function Intro() {
       position="relative"
     >
       <video width="100%" height="100%" autoPlay loop muted preload="auto">
-        <source src="/firstpage.mp4" type="video/mp4" />
+        <source src="/Services/firstpage.mp4" type="video/mp4" />
       </video>
       <Box
         position="absolute"

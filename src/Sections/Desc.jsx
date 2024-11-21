@@ -22,7 +22,7 @@ export default function Desc() {
         >
           <Box
             sx={{
-              backgroundImage: 'url("/vision.jpg")', // Correct path to your image
+              backgroundImage: 'url("/Services/vision.jpg")', // Correct path to your image
               backgroundPosition: "center",
               backgroundSize: "cover", // Ensure the image covers the entire box
               width: "500px", // Adjust width as needed
@@ -90,7 +90,7 @@ export default function Desc() {
           </Box>
           <Box
             sx={{
-              backgroundImage: 'url("/Second.jpg")', // Correct path to your image
+              backgroundImage: 'url("/Services/Second.jpg")', // Correct path to your image
               backgroundPosition: "center",
               backgroundSize: "cover", // Ensure the image covers the entire box
               width: "500px", // Adjust width as needed
@@ -107,7 +107,7 @@ export default function Desc() {
         >
           <Box
             sx={{
-              backgroundImage: 'url("/third.jpg")', // Correct path to your image
+              backgroundImage: 'url("/Services/third.jpg")', // Correct path to your image
               backgroundPosition: "center",
               backgroundSize: "cover", // Ensure the image covers the entire box
               width: "500px", // Adjust width as needed

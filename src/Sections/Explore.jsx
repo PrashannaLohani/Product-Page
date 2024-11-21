@@ -58,7 +58,7 @@ export default function Explore() {
         >
           <Box
             sx={{
-              backgroundImage: 'url("/Levis.jpg")',
+              backgroundImage: 'url("/Services/Levis.jpg")',
               backgroundPosition: "center",
               backgroundSize: "cover",
               width: "500px",
@@ -100,7 +100,7 @@ export default function Explore() {
         >
           <Box
             sx={{
-              backgroundImage: 'url("/dropbox-img.jpg")',
+              backgroundImage: 'url("/Services/dropbox-img.jpg")',
               backgroundPosition: "center",
               backgroundSize: "cover",
               width: "500px",
